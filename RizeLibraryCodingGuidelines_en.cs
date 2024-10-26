@@ -7,9 +7,9 @@
 // - If there are any doubts, prioritize the team's style guide
 
 // References:
-// - [Unity Documentation Event Function Execution Order](https://docs.unity3d.com/2019.4/Documentation/Manual/ExecutionOrder.html)
+// - [Unity Documentation Order of execution for event functions](https://docs.unity3d.com/2019.4/Documentation/Manual/ExecutionOrder.html)
 // - [Unity Code Style Guide](https://github.com/thomasjacobsen-unity/Unity-Code-Style-Guide)
-// - [Microsoft C# Coding Conventions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions)
+// - [Microsoft Ignite Common C# code conventions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions)
 // - [C# at Google Style Guide](https://google.github.io/styleguide/csharp-style.html)
 
 // Naming/Casing:
