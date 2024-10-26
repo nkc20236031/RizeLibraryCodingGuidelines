@@ -8,9 +8,9 @@
 
 // References:
 // - [Unity Documentation イベント関数の実況順序](https://docs.unity3d.com/ja/2019.4/Manual/ExecutionOrder.html)
-// - [Unity コードスタイルガイド](https://github.com/thomasjacobsen-unity/Unity-Code-Style-Guide)
-// - [Microsoft C# コーディング規約](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions)
-// - [Google C# スタイルガイド 日本語訳](https://gist.github.com/hideyukisaito/d298075c63b97f56825b0d413d8e4dc5)
+// - [Unity Code Style Guide](https://github.com/thomasjacobsen-unity/Unity-Code-Style-Guide)
+// - [Microsoft Ignite Common C# code conventions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions)
+// - [C# at Google Style Guide 日本語訳](https://gist.github.com/hideyukisaito/d298075c63b97f56825b0d413d8e4dc5)
 
 // Naming/Casing:
 // - 特に断りのない限り、Pascalの大文字と小文字を使用する(例：ExamplePlayerController、MaxHealth など)
