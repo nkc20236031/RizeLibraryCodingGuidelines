@@ -23,7 +23,7 @@
 // - 3文字以上の略語はcamelCaseで省略せず記述する
 
 // Formatting:
-// - オールマトンスタイルを使用する(例外あり)
+// - オールマンスタイルを使用する(例外あり)
 // - ,(カンマ)の後に半角スペースを1つ入れる(例：var a = 1, b = 2;)
 // - ()(丸括弧)の中にスペースを入れない(例：if (a == b) { })
 // - {}(波括弧)の前にスペースを入れる(例：if (a == b) { })
@@ -139,7 +139,7 @@ namespace MyNamespace                                   // 名前空間：Pascal
             // var a = 1, b = 2; のように1行にまとめない
             var a = 1;
             var b = 2;
-            var sum = Sum(a, b);
+            int sum = Sum(a, b);
         }
         
         // Startメソッド(Unityイベント)
@@ -167,16 +167,6 @@ namespace MyNamespace                                   // 名前空間：Pascal
             {
                 
             }
-            
-            // リーダブルコード：正しい早期リターン
-            // elseを書きたくないからって早期リターンするな
-            if (IsGround())
-            {
-                MyMethod(1);
-                return;
-            }
-            
-            MyMethod(2);
         }
         
         // リーダブルコード：bool型は肯定系で返す
