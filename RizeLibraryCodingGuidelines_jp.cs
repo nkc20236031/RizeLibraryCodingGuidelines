@@ -129,6 +129,8 @@ namespace MyNamespace                                   // 名前空間：Pascal
         // プロパティ(Property)
         public int PublicMyProperty { get; set; }       // publicプロパティ：PascalCase
         private int privateMyProperty { get; set; }     // privateプロパティ：camelCase
+
+        private void OnEnable() { }
         
         // Awakeメソッド(Unityイベント)
         private void Awake()
@@ -216,8 +218,6 @@ namespace MyNamespace                                   // 名前空間：Pascal
         private void OnDrawGizmos() { }
         
         private void OnDrawGizmosSelected() { }
-
-        private void OnEnable() { }
         
         private void OnDisable() { }
         
