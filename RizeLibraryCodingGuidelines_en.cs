@@ -130,6 +130,8 @@ namespace MyNamespace                                   // Namespace: PascalCase
         public int PublicMyProperty { get; set; }       // public property: PascalCase
         private int privateMyProperty { get; set; }     // private property: camelCase
 
+        private void OnEnable() { }
+
         // Awake method (Unity event)
         private void Awake()
         {
@@ -226,8 +228,6 @@ namespace MyNamespace                                   // Namespace: PascalCase
         private void OnDrawGizmos() { }
 
         private void OnDrawGizmosSelected() { }
-
-        private void OnEnable() { }
 
         private void OnDisable() { }
 
