@@ -105,9 +105,9 @@ namespace MyNamespace                                   // 名前空間：Pascal
         
         // ローカルルール：snake_case(例：const_variable) ※UPPER_SNAKE_CASEは可読性に劣るのでsnake_caseを使用
         // ローカルルール：初期値はデフォルト値の場合は記述しない
-        private const int const_variable = 100;          // constフィールド：snake_case
-        private readonly int readonlyVariable = 100;    // readonlyフィールド：camelCase
         private static int StaticVariable;              // staticフィールド：PascalCase
+        private readonly int readonlyVariable = 100;    // readonlyフィールド：camelCase
+        private const int const_variable = 100;          // constフィールド：snake_case
         public int PublicVariable;                      // publicフィールド：PascalCase
         internal int internalVariable;                  // internalフィールド：camelCase
         protected internal int protectedInternalVariable;   // protected internalフィールド：camelCase
