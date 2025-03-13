@@ -105,9 +105,9 @@ namespace MyNamespace                                   // Namespace: PascalCase
 
         // Local rule: Use snake_case for const variables (e.g., const_variable) *UPPER_SNAKE_CASE is less readable, so use snake_case
         // Local rule: Do not write initial values if they are default values
-        private const int const_variable = 100;          // const field: snake_case
-        private readonly int readonlyVariable = 100;    // readonly field: camelCase
         private static int StaticVariable;              // static field: PascalCase
+        private readonly int readonlyVariable = 100;    // readonly field: camelCase
+        private const int const_variable = 100;          // const field: snake_case
         public int PublicVariable;                      // public field: PascalCase
         internal int internalVariable;                  // internal field: camelCase
         protected internal int protectedInternalVariable;   // protected internal field: camelCase
