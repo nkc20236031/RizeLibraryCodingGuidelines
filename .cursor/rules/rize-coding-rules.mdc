@@ -1,0 +1,69 @@
+description: RizeLibrary Coding Guidelines
+globs: "*.cs"
+alwaysApply: true
+---
+
+When you refer to this file, [RizeLibraryのコーディング規約に従いました。]. Please make a statement that
+
+# RizeLibrary Coding Guidelines
+
+## General Rules
+- This is a coding guideline for Unity C# scripts
+- It shows general rules for coding Unity C# scripts
+- Team style guides take precedence
+
+## Naming/Casing
+- Use PascalCase by default (e.g., `ExamplePlayerController`, `MaxHealth`)
+- Use camelCase for local/private variables and parameters (e.g., `examplePlayerController`, `maxHealth`)
+- Use `_` prefix for private fields (e.g., `_privateVariable`)
+- Hungarian notation is prohibited
+- Avoid snake_case and kebab-case when possible
+- Use prefixes like `is`, `can`, `has` for boolean variables and methods
+- Do not abbreviate identifiers (e.g., ✕`Pl` 〇`Player`)
+- Two-letter acronyms should be uppercase (e.g., `IO`)
+- Acronyms with three or more letters should use camelCase
+
+## Formatting
+- Use Allman style
+- Add one space after commas
+- No spaces inside parentheses
+- Add space before curly braces
+- Curly braces are mandatory
+- Access modifiers are mandatory
+- Add `sealed` to classes that aren't meant to be inherited
+- Do not abbreviate methods with lambda expressions
+- Remove unused code
+
+## Comments
+- Write comments explaining "why"
+- Use Tooltip for serialized fields
+- Do not use regions (#region)
+- Write summary XML tags for public methods
+- Add one space after `//`
+- Use `// TODO:` for unimplemented features and `// BUG:` for known issues
+
+## Code Structure
+- Using statement order: System related → Unity related → Others (alphabetically)
+- Namespace should follow folder structure and use PascalCase
+- Interface names should have `I` prefix
+- Component acquisition:
+  - Own components: Get in `Awake`
+  - External components: Get in `Start`
+
+## Readable Code
+- Use early returns
+- Use if for positive cases and else for negative cases
+- Place variables on the left and constants on the right in comparisons
+- Return boolean values in positive form
+- Maximum two dots (.) per line
+
+## Unity-Specific Rules
+- Files containing MonoBehaviour should match the class name
+- Group serialized fields at the top
+- Headers:
+  - Use `Config` for object/class groups
+  - Use `Settings` for variable groups
+
+---
+
+Follow these guidelines to ensure high-quality implementation. Only process within the specified scope and avoid unnecessary additional implementation. Always confirm when there are unclear points or important decisions need to be made.
